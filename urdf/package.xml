@@ -34,13 +34,12 @@
   <exec_depend>liburdfdom-dev</exec_depend>
   <exec_depend>rosconsole_bridge</exec_depend>
   <exec_depend>roscpp</exec_depend>
-  <exec_depend>pluginlib</exec_depend>
-  <exec_depend>tinyxml</exec_depend>
-  <exec_depend>tinyxml2</exec_depend>
+  <build_export_depend>pluginlib</build_export_depend>
 
   <build_export_depend>tinyxml</build_export_depend>
   <build_export_depend>tinyxml2</build_export_depend>
   <build_export_depend>liburdfdom-headers-dev</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
 
   <test_depend>rostest</test_depend>
 
